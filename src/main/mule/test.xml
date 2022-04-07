@@ -12,4 +12,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<logger level="INFO" doc:name="Logger" doc:id="f3007dbf-04f8-4a6e-80cb-ad7c2dabc49b" message="Test"/>
 		<logger level="INFO" doc:name="Logger" doc:id="4a8272d9-69c2-4d0e-8ecc-5e113548457e" />
 	</flow>
+	<sub-flow name="testSub_Flow" doc:id="7ecf2533-3538-4813-acf6-4eee7c93ba10" >
+		<logger level="INFO" doc:name="sub-flow-Logger" doc:id="bad02503-d5b0-422b-8d7f-f1cb8e35ecf1" message="git hub test"/>
+	</sub-flow>
 </mule>
